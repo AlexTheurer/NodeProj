@@ -1,0 +1,97 @@
+[
+    {
+        "suit": "diamonds",
+        "number": 1
+    },
+    {
+        "suit": "diamonds",
+        "number": 1
+    },
+    {
+        "suit": "clubs",
+        "number": 11
+    },
+    {
+        "suit": "clubs",
+        "number": 7
+    },
+    {
+        "suit": "hearts",
+        "number": 1
+    },
+    {
+        "suit": "hearts",
+        "number": 12
+    },
+    {
+        "suit": "spades",
+        "number": 13
+    },
+    {
+        "suit": "spades",
+        "number": 5
+    },
+    {
+        "suit": "diamonds",
+        "number": 6
+    },
+    {
+        "suit": "diamonds",
+        "number": 4
+    },
+    {
+        "suit": "clubs",
+        "number": 10
+    },
+    {
+        "suit": "clubs",
+        "number": 9
+    },
+    {
+        "suit": "hearts",
+        "number": 1
+    },
+    {
+        "suit": "hearts",
+        "number": 2
+    },
+    {
+        "suit": "spades",
+        "number": 13
+    },
+    {
+        "suit": "spades",
+        "number": 5
+    },{
+        "suit": "diamonds",
+        "number": 5
+    },
+    {
+        "suit": "diamonds",
+        "number": 8
+    },
+    {
+        "suit": "clubs",
+        "number": 8
+    },
+    {
+        "suit": "clubs",
+        "number": 7
+    },
+    {
+        "suit": "hearts",
+        "number": 9
+    },
+    {
+        "suit": "hearts",
+        "number": 2
+    },
+    {
+        "suit": "spades",
+        "number": 1
+    },
+    {
+        "suit": "spades",
+        "number": 3
+    }
+]
