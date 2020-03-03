@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon nodeProj.js"
+    "start": "node nodeProj.js",
+	  "dev": "nodemon nodeProj.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "debug": "^4.1.1",
     "ejs": "^3.0.1",
     "express": "^4.17.1"
   },

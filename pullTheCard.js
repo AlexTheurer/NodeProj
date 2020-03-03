@@ -1,17 +1,19 @@
-const fs = require("fs");
-const jsonCard = fs.readFileSync("../card.json")
-const jsonContent = JSON.parse(jsonCard);
+const jsonCard = require('./cards.json');
 
-function getCard(numberCard){
-    if(numberOfCards === '0' || numberOfCards === '') 
-        return console.log("deve ser informado um valor maior que 0");
-    let nap = null;
-    let total = 0;
-    for (; i < numberCard; i++) {
-        var rand = Math.floor(Math.random() * 5);
-        nap += jsonContent[rand].suit;
-        total += jsonContent[rand].total;
+module.exports = class pulledCard{
+
+    getCard({card}){
+        if(card === '0' || card === '') 
+            return console.log("deve ser informado um valor maior que 0");
+        var cards = [];
+
+        while(card > 0){
+            var rand = Math.floor(Math.random() * 20);
+            cards.push(jsonCard[rand]);
+            card--;
+        }
+        return {'cards':cards.map(s => s.suit).join(''),'value':cards.map(n => n.number).reduce((a,b) => a+b, 0)};
     }
-    var ret = {"suit": nap,"total":total};
-    return ret;
 }
+
+
